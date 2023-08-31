@@ -36,10 +36,9 @@
             </button>
         </div>
         <div class="hidden lg:flex lg:gap-x-12">
-            <a href="#whyklik" class="text-sm font-bold leading-6 text-gray-900 transition duration-300 ease-out hover:scale-105 active:scale-95 hover:bg-klikblue hover:opacity-[75%] hover:text-klikwhite rounded-3xl md:px-4 py-1 px-2">Why Klik?</a>
-            <a href="#features" class="text-sm font-bold leading-6 text-gray-900 transition duration-300 ease-out hover:scale-105 active:scale-95 hover:bg-klikblue hover:opacity-[75%] hover:text-klikwhite rounded-3xl md:px-4 py-1 px-2">Features</a>
-            <a href="#howitworks" class="text-sm font-bold leading-6 text-gray-900 transition duration-300 ease-out hover:scale-105 active:scale-95 hover:bg-klikblue hover:opacity-[75%] hover:text-klikwhite rounded-3xl md:px-4 py-1 px-2">How It Works</a>
+            <a href="#hero" class="text-sm font-bold leading-6 text-gray-900 transition duration-300 ease-out hover:scale-105 active:scale-95 hover:bg-klikblue hover:opacity-[75%] hover:text-klikwhite rounded-3xl md:px-4 py-1 px-2">Home</a>
             <a href="#whatpeople" class="text-sm font-bold leading-6 text-gray-900 transition duration-300 ease-out hover:scale-105 active:scale-95 hover:bg-klikblue hover:opacity-[75%] hover:text-klikwhite rounded-3xl md:px-4 py-1 px-2">Klik Possibilities</a>
+            <a href="#lastsection" class="text-sm font-bold leading-6 text-gray-900 transition duration-300 ease-out hover:scale-105 active:scale-95 hover:bg-klikblue hover:opacity-[75%] hover:text-klikwhite rounded-3xl md:px-4 py-1 px-2">Level Up</a>
         </div>
         <div class="hidden lg:flex lg:flex-1 lg:justify-end">
             <a href="#" class="text-sm font-semibold leading-6 rounded-2xl md:px-4 py-1 py-2 bg-klikred text-klikwhite hover:scale-105 active:scale-95 hover:opacity-[75%] hover:text-klikred hover:bg-klikwhite transition duration-300 ease-out CTA" onclick="popstart('popup')">Sign Up <span aria-hidden="true">&rarr;</span></a>
@@ -65,20 +64,18 @@
             <div class="mt-6 flow-root">
             <div class="-my-6 divide-y divide-gray-500/10">
                 <div class="space-y-2 py-6">
-                <a href="#whyklik" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Why Klik?</a>
-                <a href="#features" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Features</a>
-                <a href="#howitworks" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">How It Works</a>
-                <a href="#whatpeople" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Klik Possibilities</a>
-                </div>
+                <a href="#hero" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50" onclick="togMenu()">Home</a>
+                <a href="#whatpeople" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50" onclick="togMenu()">Klik Possibilities</a>
+                <a href="#lastsection" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50" onclick="togMenu()">Level Up</a>
                 <div class="py-6">
-                <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 CTA" onclick="popstart('popup')">Sign Up</a>
+                <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 CTA" onclick="popstart('popup'); togMenu()">Sign Up</a>
                 </div>
             </div>
             </div>
         </div>
         </div>
     </header>
-    <main class="relative -mb-96 lg:-mb-[26rem] xl:-mb-[34rem]">
+    <main class="relative -mb-96 lg:-mb-[26rem] xl:-mb-[34rem]" id="hero">
         <div class="relative isolate">
         <svg class="absolute inset-x-0 top-0 -z-10 h-[64rem] w-full stroke-gray-200 [mask-image:radial-gradient(32rem_32rem_at_center,#ECF2FF,transparent)] bg-klikwhite" aria-hidden="true">
             <defs>
